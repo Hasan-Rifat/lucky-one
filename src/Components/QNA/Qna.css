@@ -1,0 +1,9 @@
+.bg {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  padding: 50px;
+  margin: 50px 0;
+}
+
+.qna h2{
+    color: #dc3545;
+}

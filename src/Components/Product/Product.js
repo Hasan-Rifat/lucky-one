@@ -10,12 +10,12 @@ const Product = ({ product, addTOCard }) => {
       <div className="card">
         <img src={image} alt="" />
         <div className="card-info">
-          <h2>{name}</h2>
-          <p>{price}</p>
+          <h5>{name}</h5>
+          <p>${price}</p>
         </div>
         <button className="btn" onClick={()=> addTOCard(product)}>
-          <p>ADD TO CART</p>
-          <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+          <p className="btn-text">ADD TO CART</p>
+          <FontAwesomeIcon className="btn-icon" icon={faShoppingCart}></FontAwesomeIcon>
         </button>
       </div>
     </div>

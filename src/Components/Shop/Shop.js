@@ -20,6 +20,7 @@ const Shop = () => {
   };
 
 
+
   return (
     <div className="container">
       <div className="shop">
@@ -33,7 +34,7 @@ const Shop = () => {
           ))}
         </div>
         <div className="carts">
-          <Cards cart={cart}></Cards>
+          <Cards cart={cart} ></Cards>
         </div>
       </div>
     </div>

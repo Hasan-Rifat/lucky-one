@@ -1,10 +1,10 @@
 .shop {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
 
 .products {
-  margin-top: 100px;
+  margin-top: 5%;
   padding-right: 2%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -14,4 +14,26 @@
 .carts{
   background-color: #29555c;
   color: #fff;
+}
+
+
+@media screen and (max-width: 1290px) {
+  .shop {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+}
+@media screen and (max-width: 1132px) {
+  .shop {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 722px) {
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

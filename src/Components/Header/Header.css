@@ -5,8 +5,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
+.logo {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .main-menu img {
   max-width: 100px;
 }
@@ -21,4 +26,10 @@
 
 .menu a:hover {
   color: #e92024;
+}
+
+@media (max-width: 722px) {
+  .menu {
+    display: none;
+  }
 }
