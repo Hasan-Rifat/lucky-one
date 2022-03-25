@@ -19,6 +19,7 @@ const Shop = () => {
     setCart(allProducts);
   };
 
+
   return (
     <div className="container">
       <div className="shop">

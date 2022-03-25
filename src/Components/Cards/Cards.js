@@ -14,9 +14,6 @@ const Cards = ({ cart }) => {
       <div className="cart-box-info">
         <img className="cart-img" src={img} alt="" />
         <span className="cart-name">{name}</span>
-        <button id="btn" onClick={() => deleteBtn()}>
-          a
-        </button>
       </div>
     </div>
   );
