@@ -1,4 +1,17 @@
-.shop{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
+.shop {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.products {
+  margin-top: 100px;
+  padding-right: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+
+.carts{
+  background-color: #29555c;
+  color: #fff;
 }

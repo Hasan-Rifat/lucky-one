@@ -1,0 +1,18 @@
+.Carts-box{
+    padding: 20px;
+}
+
+.cart-box-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.cart-name {
+    font-size: 22px;
+}

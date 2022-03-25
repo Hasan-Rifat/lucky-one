@@ -1,0 +1,13 @@
+.card{
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.card img{
+    width: 100%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
