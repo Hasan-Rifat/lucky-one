@@ -1,4 +1,4 @@
 # electronics shop
 
 # live Link : 
-http://localhost:3000/
+https://hasan-rifat-assignment-8.netlify.app/
