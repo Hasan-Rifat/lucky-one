@@ -5,6 +5,7 @@ const Qna = () => {
   return (
     <div className="container ">
       <div className="bg">
+        <h1>Questions and answer</h1>
         <div className="qna">
           <h2>how dose react works?</h2>
           <p>

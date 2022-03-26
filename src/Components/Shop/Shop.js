@@ -12,14 +12,21 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
 
-  const [cart, setCart] = useState([]);
+  const [carts, setCart] = useState([]);
 
   const addTOCard = (product) => {
-    const allProducts = [...cart, product];
-    setCart(allProducts);
+    const exists = carts.find((pb) => pb.id === product.id);
+
+    if (!exists) {
+      const allProducts = [...carts, product];
+      setCart(allProducts);
+    } else return;
   };
 
-
+  const removeBtn = () => {
+    let newCart = [];
+    setCart(newCart);
+  }
 
   return (
     <div className="container">
@@ -34,7 +41,7 @@ const Shop = () => {
           ))}
         </div>
         <div className="carts">
-          <Cards cart={cart} ></Cards>
+          <Cards carts={carts} removeBtn={removeBtn}></Cards>
         </div>
       </div>
     </div>
